@@ -1,0 +1,53 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  .main-canvas{
+    background-color: black;
+    position: fixed;
+    width:500px;
+    height:500px;
+    left:500px;
+    margin:0px;
+    box-sizing: border-box;
+    font-size: 0px;
+    display:flex;
+    flex-direction:column;
+  }
+  .main-row{
+    width:500px;
+    height:100px;
+  } 
+  .row1, .row2, .row3, .row4, .row5{
+    display:inline-block;
+    width:100px;
+    height:100px;
+    background-color: yellow;
+    margin:0px;
+    box-sizing: border-box;
+    font-size: 0px;
+  }
+  #play-again-btn {
+    position: fixed;
+    left: 700px;
+    top: 500px;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border: black 3px solid;
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 5px;
+  }
+  #play-again-btn:hover {
+    background-color: black;
+    color: white;
+    border: white 3px solid;
+  }
+  #play-again-btn:active {
+    border: yellow 3px solid;
+  }
+  
+  
