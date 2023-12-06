@@ -82,9 +82,10 @@ function gridTimer1() {
   document.getElementById('row1col3').style.backgroundColor = 'white';
   document.getElementById('row2col3').style.backgroundColor = 'white';
   document.getElementById('row3col3').style.backgroundColor = 'white';
-  document.getElementById('row4col2').style.backgroundColor = 'white';
-  document.getElementById('row4col3').style.backgroundColor = 'white';
-  document.getElementById('row4col4').style.backgroundColor = 'white';
+  document.getElementById('row4col3').style.backgroundColor = 'white'; 
+  document.getElementById('row5col2').style.backgroundColor = 'white';
+  document.getElementById('row5col3').style.backgroundColor = 'white';
+  document.getElementById('row5col4').style.backgroundColor = 'white';
 }
 
 function gridTimer2() {
